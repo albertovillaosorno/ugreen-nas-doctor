@@ -53,5 +53,3 @@ examples/self_host/**/*.malbolge
 *.toc
 *.fls
 *.fdb_latexmk
-# LaTeX generated output
-*.pdf
