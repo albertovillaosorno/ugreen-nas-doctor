@@ -1,0 +1,57 @@
+# Mandatory repository-local infrastructure state.
+/.cache/
+/.temp/
+/.logs/
+/.dependencies/
+
+# Non-authoritative study material embedded beside rule contracts.
+**/cheap-reference/
+JIG_SHIT.md
+
+# Local editor and operating-system state.
+/.cursor/
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Local command-line host binaries.
+/src/interface/command-line/composition/scripts/bin/
+
+# Local interpreter and tool caches.
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+**/.mypy_cache/
+**/.eslintcache
+/node_modules/
+
+# Local temporary artifacts outside the mandatory infrastructure roots.
+*.log
+*.tmp
+*.temp
+
+# DOOM original codebase
+/doom/
+src/research/algorithms/domain/algorithms/doom/quality/in/doom
+
+# Reproducible algorithm outputs are local. User-owned interoperability input
+# corpora are local too; other algorithm inputs/configuration remain versioned.
+**/out/
+
+# Canonical interoperability products are generated from user-supplied source
+# and must remain local even if a tool accidentally writes them outside `out/`.
+doom.c
+doom.malbolge
+examples/self_host/**/*.malbolge
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.synctex.gz
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+# LaTeX generated output
+*.pdf
