@@ -1,5 +1,5 @@
 ---
-name: nas-guardian
+name: ugreen-nas-doctor
 description: Five-way NAS troubleshooting and verified next steps when a user asks why their NAS, internet, local link, storage or externally hosted app is slow, down, or unreachable.
 ---
 

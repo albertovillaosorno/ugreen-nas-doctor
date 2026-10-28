@@ -1,8 +1,8 @@
-# NAS Guardian
+# UGREEN NAS Doctor
 
 **An evidence-first troubleshooting Skill for UGREEN AI NAS.**
 
-NAS Guardian helps users distinguish five different sources of NAS-related performance and availability problems:
+UGREEN NAS Doctor helps users distinguish five different sources of NAS-related performance and availability problems:
 
 1. Internet connection, ISP, or public network route
 2. Local network, Wi-Fi, switch, or link to the NAS
